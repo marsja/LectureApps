@@ -1,0 +1,167 @@
+---
+title: "CV | Teaching"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@liu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pedagogical Courses
+I have taken three courses in university pedagogy of total of 8 ECTS (roughly 6 weeks, full time studtying): 
+
+* Undervisning på Högskolan (Teaching at the University), Umeå University 
+* Teori om Lärande (Theory of Learning), Umeå University
+* Problembaserat Lärande (Problem-based learning), Linköping University
+
+
+## Teaching  
+
+Teaching has been primarily in:
+
+* Research Methods & Basic Statistics
+* Cognitive Psychology (attention, perception, & working memory)
+* Applied Cognitive Psychology (attention and perception)
+
+The majority of lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects) and co-supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017). In addition to the previously mentioned teaching types, I have also held workshops, and supervised projects and thesis' at the Department of Behavioral Science and Learning, and the Department of Computer Science and Information, Linköping University (2019 - ). Teaching have been carried out digitally (e.g., through Zoom, using online learning platforms such as LISAM at Linköping university) and physically (e.g., live lectures). I have experience of digital examination such as quizzes, hand-ins in learning platforms but also traditional examination forms.
+
+At Umeå University and Linköping University, I have so far taught 950  and 662 clock hours, respectively (total = 1612 hours). Topics of the supervised projects and thesis' has all been in cognitive science (i.e., human-computer interaction, psychology, and Artificial Intelligence/Machine Learning). For an overview, of my teaching responsibilities see Table 1.
+
+
+### Supervision of Bachelor Students (Undergraduate Level)
+
+Mattila, M. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs: Generating Class Specific Images of Bacterial Growth." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Bridal, O. (2021). Department of Computer and Information Science, Linköping University. "Named-entity recognition with BERT for anonymization of medical records." Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by
+users in support services pursuant to LSS - An analysis on a municipal level." Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+
+Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cogntive Science (18 ECTS). *Main supervisor*
+
+Dahlgren, S. (2020). Department of Computer and Information Science, Linköping University. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+### Supervision of Master Students (Graduate Level)
+
+Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
+
+### Teaching Workshops
+
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
+
+\end{changemargin}
+
+
+June 2021\hspace{0.75cm}\textbf{SIDR Summer School 2021}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+Division of Disability Research, Linköping University.
+
+Assisting Prof. Danielsson in teaching advanced statistics in the R programming language.
+
+\end{changemargin}
+
+### Additional skills
+
+* Extensive knowledge in statistical software such as SPSS, JASP, and R statistical programming environment
+* Strong scripting skills in Python (v2.7.x & v3.x.x) and R
+* Substantial skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+* Good skills in Microsoft Word and Excel
+* Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript, and PHP
+* Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+
+
+```{r, echo=FALSE, message=FALSE, results='asis', warning=FALSE}
+rm(list=ls())
+library(kableExtra)
+
+datadir = "./Data/undervisning_senaste_teaching.csv"
+column_names <- c("Kurs och Program", "År", "Klocktimmar", "Termin",
+                  "Typ", "Ämne", "Nivå", "Språk", "Universitet"
+                  )
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL,
+                    encoding = "UTF-8")
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[10], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:9])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+
+notes <- paste('An overview of my teaching. Total of clock hours: ', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term', sep = ' ')
+```
+
+
+\newpage
+
+\begin{landscape}
+\pagestyle{empty}
+{
+```{r, echo=FALSE, results='asis'}
+library(kableExtra)
+
+columnNames <- c('Period(s)', 'Subject', 'Type', 
+                 'Clock Hours', 'Course/Program', 'Level',
+                 'Language', 'University')
+d <- kable(newdata, "latex", col.names = columnNames, booktabs = TRUE, longtable = TRUE, caption = notes) %>%
+  kable_styling(position = "center",
+                latex_options = c("hold_position", "repeat_header")) %>%
+  column_spec(c(2, 3, 5), width = "4cm") %>%
+  column_spec(c(1), width = "1.5cm") %>%
+  column_spec(c(7), width = "1.2cm") %>%
+  column_spec(c(4), width = "1.8cm") %>%
+  column_spec(c(9), width = "1.8cm")
+
+d
+
+```
+}
+\end{landscape}

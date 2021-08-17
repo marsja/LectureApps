@@ -1,0 +1,46 @@
+---
+title: "Teaching Evaluations"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@umu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Evaluations from students
+
+Below are evaluations from the psychologist program after completing the course Organizational, Environmental and Work Psychology (part 2: Research methodology). Only questions relevant to my teaching in the course are presented (in Swedish):
+
+Fråga 4: Vad tycker du om kvaliteten på datalabbarna?? Resulted in an average of 3,68 (out of 5)
+
+Fråga 6: Vad tycker du om det kvalitativa artikelseminariet som ett stöd för ditt lärande?  Resulted in an average of 3,47
+
+Fråga 9: Nämn tre saker som du tycker var bra på kursen. (öppen fråga):
+
+  - "Dataövnningarna, upplägget och mängden uppgifter."
+  
+  - "...Tycker även det har varit bra med datalabbar med ordentliga genomgångar av uppgifterna, det främjar lärandet att få göra analyserna på egen hand med lärare på plats..."
+  
+  - "Engagerade och pedagogiska lärare - SPSS-momentet med datalab och examination var bra och lärorikt - God kommunikation mellan studenter och lärare"
+  
+  -"SPSS datalabbar och material var super bra. Variation med film,
+  papper å litteratur."
+  
+  - "1. Bra och nyttigt att vi får lära oss mer om kvalitativ metod...,  ...3. Bra SPSS-övningar till datalabbarna."
+  

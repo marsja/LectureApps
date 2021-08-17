@@ -1,0 +1,30 @@
+---
+title: "Communication with society"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@umu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I am occasionally blogging, and interacting, with the society through my blog marsja.se. On this blog, I publish programming tutorials and guides (data visualization and data analysis, mainly). Occasionally, I also publish information about my research.
+
+**Marsja**, E. (2016, July). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+\sloppy
+http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/

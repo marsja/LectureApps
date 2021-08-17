@@ -1,0 +1,11 @@
+"0","d <- kable(newdata, ""latex"", booktabs = TRUE, longtable = TRUE, caption = ""Test"") %>%
+  kable_styling(position = ""center"",
+                latex_options = c(""hold_position"", ""repeat_header"")) %>%
+  column_spec(c(2, 3, 5), width = ""4cm"") %>%
+  column_spec(c(1), width = ""1.5cm"") %>%
+  column_spec(c(7), width = ""1.2cm"") %>%
+  column_spec(c(4), width = ""1.8cm"") %>%
+  column_spec(c(9), width = ""1.8cm"") %>%
+  add_footnote(""hej"")
+"
+"2","Notation is set to 'number' and other formats are not supported."

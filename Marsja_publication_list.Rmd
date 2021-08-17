@@ -1,0 +1,77 @@
+---
+title: "Conference Activities and Peer-review"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@liu.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4670-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Publications
+
+### International peer-reviewed articles
+
+Total: 5
+
+Stenbäck, V., **Marsja**, E., Hällgren,  M., Lyxell, B., & Larsby, B. (Accepted). The contribution of age, working memory capacity and inhibitory control on speech-recognition-in-noise in young, and older adult listeners. Journal of Speech, Language, and Hearing Research.
+
+Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
+
+**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. https://doi.org/10.3389/fpsyg.2019.00299 - *Part of doctoral thesis*
+
+**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390 - *Part of doctoral thesis*
+
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. http://dx.doi.org/10.1016/j.actpsy.2014.05.009
+
+## Conference Presentations peer-reviewed
+
+Total: 5
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, June). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, CHN. **Oral presentation**.
+
+**Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
+
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  The 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
+
+
+## Invited Talks
+
+Total: 1
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. 
+
+## Other presentations
+
+Total: 1
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
+
+## Popular Science and Education-Related Articles
+
+Total: 1
+
+**Marsja**, E. (2016, July). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+\sloppy
+http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/

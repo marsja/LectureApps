@@ -1,0 +1,216 @@
+\documentclass[]{article}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{everypage}
+
+\newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
+  \dimendef\margin=0 %use \margin instead of \dimen0
+  \ifodd\value{page}\margin=\oddsidemargin
+  \else\margin=\evensidemargin
+  \fi
+  \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
+    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+    \llap{\rotatebox{90}{ Cover Letter  - Erik Marsja 
+- \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
+\egroup\fi}
+\AddEverypageHook{\Lpagenumber}%
+
+\usepackage{adjustbox}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+\usepackage[scaled=.90]{helvet}% Helvetica, served as a model for arial
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\fancyfoot[CO,CE]{ Personligt Brev -    Erik Marsja -  \thepage\hspace{1pt}(\pageref{LastPage})}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\usepackage[margin=1.2in]{geometry}
+
+% Font awesome
+\usepackage{fontawesome}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% For tables
+
+
+% Tightlist
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% URLS
+\usepackage[hidelinks]{hyperref}
+\usepackage{breakurl}
+\usepackage{float} % here for H placement parameter
+
+% Appendix header style
+
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+}
+
+
+% For Changing the margins (Education)
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+%For displaying the table in landscape format
+\usepackage[absolute]{textpos}
+
+\fancypagestyle{lscape}{% 
+\fancyhf{} % clear all header and footer fields 
+\fancyfoot[LE]{%
+\begin{textblock}{20}(1,5){\rotatebox{90}{\leftmark}}\end{textblock}
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}}
+\fancyfoot[LO] {%
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}
+\begin{textblock}{20}(1,13.25){\rotatebox{90}{\rightmark}}\end{textblock}}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+% Appendix
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+\renewcommand{\headrulewidth}{1pt}
+}
+
+
+
+\newcommand\secbar {
+    \tikz[baseline, trim left=3.2cm] 
+    {
+        \fill [white] (3cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \draw [gray!95, fill=gray!80] (0cm,0.1ex) rectangle (3cm,1.1ex);        
+    }
+}
+\newcommand\subsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (2cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\newcommand\subsubsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (1cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\titleformat{\section}{\large}{}{0cm}{\secbar}
+\titleformat{\subsection}{\large}{}{0cm}{\normalfont\sffamily\Large\bfseries\subsecbar}
+\titleformat{\subsubsection}{}{}{0cm}{\normalfont\sffamily\large\bfseries}
+
+% No first line paragraph indent
+\usepackage{parskip}
+\usepackage{enumitem}
+
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+\centerline{\huge \textbf{Erik Marsja} | \textcolor{darkgray}{Cover Letter}}
+
+\vspace{2 mm}
+
+\hrule
+
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{@{}lYl@{}}
+\textbf{Home Address}: & & 
+\\Tvistevägen 26, SE-907 36 Umeå, Sweden & & 
+\\\\
+
+ \faPhone \hspace{1 mm}  +4670-3633662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:erik.marsja@liu.se}{\nolinkurl{erik.marsja@liu.se}}} \hspace{1 mm}  \\
+ \faGlobe \hspace{1 mm} \href{http://www.marsja.se}{\tt www.marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  \\
+ \multicolumn{3}{c}{}
+ \\\hline
+\end{tabularx}
+\end{table}
+
+Dear Hiring Committee,
+
+I want to express my interest in the position as a lecturer in cognitive
+science, at the Department of Computer Science and Information,
+Linköping University. Currently, I am working as a post-doc researcher
+at the Division of Disability Research, Department of Behavioural
+Sciences and Learning. I find it very interesting to work with teaching,
+collaborate, and carry out research in technological areas (e.g.,
+computer science). Mainly because it is an excellent opportunity to make
+use of some of the many skills I developed during my time as a graduate
+student and post-doc, including my strong skills in research, statistics
+and methods, teaching, and programming. Overall, my research has been
+focused on cross-modal aspects of attention and distraction, hearing,
+age, and cognition. I have acquired good knowledge in the field of
+multisensory attention and cognitive hearing science.
+
+Additionally, I also have a strong interest in programming and data
+analysis. These skills have been put to use in collaboration with
+national and international researchers. During my Ph.D.~studies, I have
+used specially designed vibration equipment, but also created my own
+vibration equipment using open source products (e.g., Arduino) and
+programming. I have also used programming to analyze data (e.g., R and
+Python) using e.g.~machine learning and/or multivariate statistics.
+
+My teaching responsibilities include both quantitative and qualitative
+research methodology, applied cognitive psychology, and cognitive
+psychology. I have been involved in the supervision of projects where
+students, together with external companies, perform projects where they
+apply basic research knowledge. These projects, including the thesis' I
+have supervised, cover areas such as psychology, human-computer
+interaction (e.g., evaluating the design of products), machine learning,
+and collecting and analyzing data for companies. In addition, I have
+participated in several international conferences, taught for
+international students, and collaborated with international researchers.
+
+I have a background in cognitive science (an MSc. degree) and, in
+addition to my expertise in cognitive psychology, thus have a broad
+knowledge in all cognitive science subjects, including computer science
+(e.g., programming, human-computer interaction, and artificial
+intelligence).
+
+During my spare time, I enjoy reading, cooking, and baking sourdough
+bread. I also enjoy hiking, and spending time with my family and
+friends. Fishing is a relatively new hobby. Occasionally, I enjoy
+blogging (i.e., write programming tutorials).
+
+I look forward to growing in an intellectually challenging environment
+and to work with a technical focus, expand my skills to human-computer
+interaction and machine learning, and research - both in collaboration
+with industry and basic research. I strongly believe that my experience
+and merits are of great benefit to the department as well as the
+research community.
+
+Do not hesitate to contact me via +46703633662 or
+\href{mailto:erik.marsja@liu.se}{\nolinkurl{erik.marsja@liu.se}}. Thank
+you for your consideration and your time.
+
+Kind Regards, Erik Marsja
+
+\end{document}
