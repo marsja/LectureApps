@@ -1,0 +1,55 @@
+---
+title: "Pedagogical Reflection"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@umu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+During my years as a teacher at the university level, I have gained experience in teaching and taken courses in university pedagogy. This has had a strong impact on my development as a teacher. I often reflect on my role as a teacher and am driven to develop and improve my teaching skills. As a result, I often spend a lot of time preparing my teaching.
+
+My view of knowledge is based on the subjects I studied during my time as an undergraduate and postgraduate student; cognitive science (especially cognitive psychology). That is, my view is that knowledge is based on empirical results (Gustafsson, 2002). However, my view has changed to consider that deeper knowledge also requires an understanding of facts. This development has sprung from my experience of teaching, and the pedagogical courses I read, but also my specialization in psychology as a subject. I have come to adopt an approach based on, among other things, Gustafsson's (2002) four F (Swedish: fakta, förståelse, förtrogenhet, och färdighet. Translated: facts, understanding, familiarity, and skill.)
+
+Since the majority of my teaching has been conducted at beginning of the students' education, my goal has been to get the students to learn to understand the facts (i.e, basic science). However, I have also had the opportunity to teach courses with an applied focus, and project courses where students should be able to apply basic science in direct contact with the business community. Here, the challenge has been to support the students to apply their theoretical knowledge but also to get them to theoretically understand the practical aspects of their work.
+
+For me, learning is a dynamic process that lasts a lifetime and is concerned with obtaining the facts, understanding, familiarity, and skill (or just facts and understanding in many cases in the subjects I teach). Learning is, for me, very strongly connected to the psychological construct that we call memory (i.e., the process that allows us to store and remember information) but also to behavior. With that said, I also believe that learning requires healthy critical thinking where, among other things, knowledge of the importance of source criticism means that students incorporate new knowledge with previous experiences. In the long run, this can hopefully contribute to the students being able to put the new knowledge into practice.
+
+Teaching obviously has a central role in learning and the main purpose of all education is for students to achieve expected goals. That is, teaching is a goal-oriented activity that aims to promote students' learning. To achieve this, you need to create a good environment for the students. A good learning environment rests largely on my pedagogical skills. I believe that my mission is not only to impart knowledge but I also need to create an interesting environment that stimulates the students learning. I believe that commitment and enthusiasm are very important here because, in my experience, your experience is, more or less, mirrored in the students.
+
+Another important factor is to create an open atmosphere where students dare to ask questions. Here, the importance of gender and intersectional perspective is crucial. In addition to striving to incorporate these perspectives into teaching, which in many of the teaching elements I have had is not always possible, this also means trying to draw attention to and counteract negative tendencies related to gender, sexuality, ethnicity, disability, and age in all teaching contexts. I also believe that it is of great importance to work with awareness of these perspectives even in the planning stage itself (e.g., current study material, group exercises, supervision).
+
+Over the years, I have gained experience in teaching assignments in the form of giving lectures, supervising e.g., thesis', being responsible for seminars and group exercises, laboratory work, and workshops. As can be seen from the attached table, my teaching at the university has taken place at the undergraduate and graduate levels to a total extent of approximately 1612 clock hours. My teaching has taken place for students in disability research, pedagogy, psychology, coaching program, and the cognitive science program, students in independent courses, international students (in English), and civil engineers. I experience this diversity of student groups as enriching in interdisciplinary respect.
+
+Something that is important to me is that my teaching is improved and developed. This happens as I learn new pedagogical skills and theories but also when I discover that the students seem to have difficulties with certain aspects. For example, when I started lecturing in perception almost 6 years ago. I gave the first lecture to students at the coaching program. My first thought was: in their future professional role, how can knowledge of human perception be useful? Here, I tried with a number of different examples from sports to convey that knowledge about perception could improve, among other things, the performance of the athlete.
+
+Incorporating pedagogical theory is important. For example, I have practically applied aspects of variation theory (see Ling & Marton, 2012). Typically, I contrast different theoretical views or approaches against each other so it will be easier for students to learn them. By allowing students to break down different, sometimes very similar, theories and see what separates them, I experience that it simplifies their understanding. 
+
+In a course in Disability research, for example, I have applied the 4 Fs. To achieve familiarity (förtrogenhet) and skill (färdighet), I believe that you need to work in a way that you can apply the facts and, this way, understand you have learned I have thus held simpler computer labs in Jamovi, a statistical software, where I first went through what needs to be learned and then the students themselves had to work with that other material. In this course, I have also worked with examinations where students can apply their knowledge and understanding of statistics by working with materials and finding the right analysis method, to then perform analyzes in Jamovi
+
+In conclusion, I want to convey that my development as a university teacher naturally involves learning about, and adopting, more pedagogical theories and try to connect these with psychological theories of teaching and learning. What is most obvious are more individualistic approaches such as relational pedagogy (Aspelin, 2011). Since a large part of my teaching has been supervising, I have tried reaching the students by creating a relationship and based on this relationship have interaction and collaboration. I think this is very important because I often teach for students with different backgrounds as well as end-goals. This means that in my supervision I strive to adapt to the groups and the individuals in the groups. Here, knowledge about relational pedagogy comes in handy as well as my knowledge as well as experience in problem-based learning.
+ 
+ 
+## References
+
+Aspelin, J. (2011). Vad är relationell pedagogik? Persson S. (Ed.), *Om relationell pedagogik* (pp. 13-25). Malmö: Gleerups Utbildning AB
+
+Gustavsson, B. (2002). Vad är kunskap? En diskussion om praktisk och teoretisk kunskap. Kalmar: Leanders Grafiska AB.
+
+Ling, L. M., & Marton, F. (2012). Towards a science of the art of teaching: Using variation theory as a guiding principle of pedagogical design. International Journal for Lesson and Learning Studies, 1(1), 7–22. http://doi.org/10.1108/20468251211179678

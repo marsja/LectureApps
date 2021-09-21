@@ -1,0 +1,47 @@
+---
+title: "Cover Letter"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@liu.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4670-3633662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+cletter: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dear Hiring Committee,
+
+I want to express my interest in the position as a lecturer in cognitive science, at the Department of Computer Science and Information, Linköping University. Currently, I am working as a post-doc researcher at the Division of Disability Research, Department of Behavioural Sciences and Learning. I find it very interesting to work with teaching, collaborate, and carry out research in technological areas (e.g., computer science). Mainly because it is an excellent opportunity to make use of some of the many skills I developed during my time as a graduate student and post-doc, including my strong skills in research, statistics and methods, teaching, and programming. Overall, my research has been focused on cross-modal aspects of attention and distraction, hearing, age, and cognition. I have acquired good knowledge in the field of multisensory attention and cognitive hearing science.
+
+Additionally, I also have a strong interest in programming and data analysis. These skills have been put to use in collaboration with national and international researchers. During my Ph.D. studies, I have used specially designed vibration equipment, but also created my own vibration equipment using open source products (e.g., Arduino) and programming. I have also used programming to analyze data (e.g., R and Python) using e.g. machine learning and/or multivariate statistics.
+
+My teaching responsibilities include both quantitative and qualitative research methodology, applied cognitive psychology, and cognitive psychology. I have been involved in the supervision of projects where students, together with external companies, perform projects where they apply basic research knowledge. These projects, including the thesis' I have supervised, cover areas such as psychology, human-computer interaction (e.g., evaluating the design of products), machine learning, and collecting and analyzing data for companies.
+In addition, I have participated in several international conferences, taught for international students, and collaborated with international researchers.
+
+I have a background in cognitive science (an MSc. degree) and, in addition to my expertise in cognitive psychology, thus have a broad knowledge in all cognitive science subjects, including computer science (e.g., programming, human-computer interaction, and artificial intelligence).
+
+During my spare time, I enjoy reading, cooking, and baking sourdough bread. I also enjoy hiking, and spending time with my family and friends. Fishing is a relatively new hobby. Occasionally, I enjoy blogging (i.e., write programming tutorials).
+
+I look forward to growing in an intellectually challenging environment and to work with a technical focus, expand my skills to human-computer interaction and machine learning, and research - both in collaboration with industry and basic research. I strongly believe that my experience and merits are of great benefit to the department as well as the research community. 
+
+Do not hesitate to contact me via +46703633662 or erik.marsja@liu.se. Thank you for your consideration and your time.
+
+Kind Regards,
+Erik Marsja

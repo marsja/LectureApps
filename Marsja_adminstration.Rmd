@@ -1,0 +1,28 @@
+---
+title: "Administrative skills"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@umu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I was responsible for arranging the monthly \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series 2019-09 - 2020-12. This included contacting national, and international, researchers, booking flights, and hotels. I also booked suitable rooms, created and printed posters, as well as set up equipment for online streaming. 
+
+I was also the elected chairperson of the Ph.D. students council of the Department of Psychology, Umeå University.  
