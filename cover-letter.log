@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.15)  16 AUG 2021 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.20)  20 SEP 2021 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cover-letter.tex
 (./cover-letter.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12>
+L3 programming layer <2021-08-27>
 (c:/Users/erima96/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/erima96/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -579,7 +579,7 @@ rs
 )
 (c:/Users/erima96/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpag
 e.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 )
 (c:/Users/erima96/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titlese
 c.sty
@@ -994,10 +994,10 @@ Package rerunfilecheck Info: File `cover-letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24335 strings out of 480502
- 442693 string characters out of 5897829
- 731348 words of memory out of 5000000
- 41595 multiletter control sequences out of 15000+600000
+ 24336 strings out of 480559
+ 442597 string characters out of 5901612
+ 730469 words of memory out of 5000000
+ 41541 multiletter control sequences out of 15000+600000
  407148 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  84i,11n,117p,1201b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
