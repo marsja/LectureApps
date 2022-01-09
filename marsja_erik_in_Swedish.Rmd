@@ -1,0 +1,308 @@
+---
+title: "Curriculum Vitae"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: templateSE.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@liu.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: 070-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Anställningar
+
+Jan 2022 - \hspace{0.50cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Avdelningen för Handikappvetenskap, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet (20 procent). Arbeta med projektet "Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet" som jag erhållit medel för.
+
+\end{changemargin}
+
+Jan 2022 - \hspace{0.50cm}\textbf{Forskare}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Väg- och transportinstitutet (VTI), Linköpings (80  procent).
+
+\end{changemargin}
+
+Jan 2019 - 
+
+dec 2021\hspace{0.75cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Avdelningen för Handikappvetenskap, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet.
+
+\textbf{Arbetsuppgifter}: Analysera data från en stor databas och skriva manuskript inom fältet för kognitiv hörselvetenskap. Ansvarig för att arrangera den månatliga seminarieserien \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series (augusti 2020 - augusti 2021). Detta inkluderade att kontakta nationella, och internationella, forskare, boka flyg och boende, såväl som lokaler för seminariet och att se till så att seminarierna gick att sända online. Undervisning i framför allt statistik och metod (kvantitativ såväl som kvalitativ).
+
+\end{changemargin}
+
+
+Aug 2018 -
+
+okt 2018\hspace{0.75cm}\textbf{Forskarassistent}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+\textbf{Projekttitel}: Upplevd säkerhet och trygghet i nöd- och vårdsituationer.
+
+Gjorde en litteraturstudie på uppdrag av SOS Alarm. Denna litteraturstudie innefattade främst studier av kvalitativ karaktär med inriktning på vilka faktorer som kan påverka känslan av trygghet och säkerhet vid både nöd- och vårdsituationer. Resultatet presenterades i rapport form och muntligt för SOS Alarms innovationsstyrelse.
+
+\end{changemargin}
+
+Okt 2012 -
+
+juni 2018\hspace{0.75cm}\textbf{Doktorand}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+Planering av studier, programmering av experiment, litteratursökning, dataanalys, vetenskaplig kommunikation och många fler. Se avsnittet "Undervisningsansvar" för en översikt över min pedagogiska erfarenhet.
+
+\end{changemargin}
+
+Juni 2011\hspace{0.75cm}\textbf{Projektassistent}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+Rekryterade deltagare och samlade in data.
+
+\end{changemargin}
+
+
+## Examina
+
+2017 \hspace{1.5cm} \textbf{Fil. Dr. i Psykologi}\vspace{1mm}
+
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+\textbf{Avhandlingens titel}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
+
+Tillgänglig från DiVA: \sloppy http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
+
+\textbf{Handledare}: Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
+\end{changemargin}
+
+2012 \hspace{1.5cm}\textbf{M.Sc. i Kognitionsvetenskap}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+\textbf{Uppsatstitel}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+\textbf{Handledare}: Professor Jessica K. Ljungberg
+\end{changemargin}
+    
+2011 \hspace{1.5cm}\textbf{B.Sc. i Kognitionsvetenskap}\vspace{1mm}
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+\textbf{Uppsatstitel}:  Attention Capture: Studying the Distracting Effect of One’s Own Name.
+
+Tillgänglig från DiVA: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
+    
+\textbf{Supervisor}: Professor Jessica K. Ljungberg
+\end{changemargin}
+
+## Publikationslista
+
+### Internationalla refereegranskade tidskrifter
+
+```{r child = 'peer-reviewed.Rmd'}
+```
+
+### Publikationer under Förberedelse/inskickade/under revidering 
+
+```{r child = 'not-accepted.Rmd'}
+```
+
+
+## Konferenspresentationer
+
+```{r child = 'conference.Rmd'}
+```
+
+## Populärvetenskapliga och Utbildningsrelaterade Artiklar
+
+**Marsja**, E. (2016, juli). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+\sloppy
+http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/
+
+## Finansiering och bidrag 
+
+**299 235 SEK** från Hörselforskningsfonden för projektet *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet*, 2021.
+
+**6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i "Re-thinking the Senses Spring School", Dubrovnik, Kroatien, 2017.
+
+**15000 SEK** från Lars Hiertas Minnesfond för projektet *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** från Samhällsvetenskapliga fakulteten, Umeå Universitet, för att delta i workshop:Attention and Control: Insights from Distraction, och för att besöka Dr. John E. Marsh vid the University of Central Lancashire, Preston, UK, 2016. 
+
+**8000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i konferensen the 17^th^ International Multisensory Research Forum 15-18 juni, Souzou, Kina, 2016.
+
+**10 000 SEK**  från JC Kempes minnesfond för projektet *Is everyday distractibility related to attention capture by
+vibrating deviants?*, 2014.
+
+**9 000 SEK**  från Knut och Alice Wallenbergs Stiftelse för att delta i konferenserna Psychonomic Society’s 55^th^ Annual Meeting, 20-23 november, och APCAM, 20:e november, Long Beach, USA, 2014. 
+
+**6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Tyskland, 2013.
+
+## Refereegranskat för tidskrifter:
+
+* Behavior Research Methods
+
+* Frontiers in Psychology
+
+* Journal of Cognitive Psychology
+
+Information om mitt ansvar som granskare finns i min [Publons-profil] (https://www.publons.com/a/1517052/).
+
+
+## Specialistträning 
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+## Undervisningsansvar  
+
+Primärt i:
+
+* Forskningsmetodik, grundläggande statistik och kvalitativ metod
+* Kognitiv Psykologi 
+* Tillämpad Kognitiv Psykologi
+
+Majoriteten av föreläsningar, seminarier, laboratoriedemonstrationer, handledning av gruppprojekt (både som involverar empiriska och tillämpade projekt) och handledning av uppsatser har skett vid Institutionen för Psykologi, Umeå universitet, Sverige (2014 - 2017) och Institutionen för beteendevetenskap och lärande, Linköpings universitet (IBL: 2019 -). Jag har också hållit workshops vid IBL, Linköpings universitet (2019 -). Vid Umeå universitet och Linköpings universitet har jag hittills undervisat i 950 respektive 824 timmar. Se Tabell 1 för en översikt över mina undervisningsansvar, antal timmar och kurser.
+
+
+### Handledning av Kandidatstudenter (grundnivå)
+
+Bridal, Olle. (2021). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Named-entity recognition with BERT for anonymization of medical records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Mattila, Marianne. (2021). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Rombo, A. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Lindberg, F. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag."  Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Dahlgren, S. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss."  Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+### Handledning av Masterstudenter (avancerad nivå)
+
+Carlbring, J. (2020) Institutionen för dator- och informationsvetenskap, Linköpings universitet.. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Masteruppsats i Kognitionsvetenskap (30hp). *Huvudhandledare* 
+
+Ma, L. (2015). Institutionen för Psykologi, Umeå Universitet. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Masteruppsats i Kognitionsvetenskap (15HP). *Bihandledare*
+
+Blide, M. (2014). Institutionen för Psykologi, Umeå Universitet. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse. Masteruppsats i Klinisk Psykologi (30HP). *Bihandledare*
+
+
+###  Workshops
+
+Okt 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Institutionen för Psykologi, Umeå Universitet.
+
+En introduktion till R statistiskt programmeringsspråk - presenterad för seniorforskare med fokus på grundläggande programmering och R statistiska programmeringsmiljö.
+
+\end{changemargin}
+
+### Ytterligare meriter
+
+* Omfattande kunskap inom statistisk programvara som SPSS, JASP och R statistisk programmeringsmiljö
+* Starka skriptkunskaper i Python (v2.7.x & v3.x.x) och R
+* Betydande färdigheter i programmering och utförande av experiment med både E-prime och Python (dvs. PsychoPy, OpenSesame och Expyriment)
+* Goda kunskaper i Microsoft Word och Excel
+* Grundläggande programmeringskunskaper i Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript och PHP
+* Grundläggande färdigheter i Markdown (t.ex. RMarkdown) och \ LaTeX
+
+### Ansvar
+
+* Vald som ordförande för doktorandstudenternas råd vid Institutionen för Psykologi, Umeå universitet.
+
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+rm(list=ls())
+
+datadir = "./Data/teachinghours2.csv"
+
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+```
+
+\newpage
+\pagestyle{empty}
+
+```{r, echo=FALSE, results='asis'}
+library(kableExtra)
+
+# Column names
+colN <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+kable(newdata, longtable= T, col.names = colN, format="latex", caption='Undervisningsansvar - en översikt över typ av undervisning, timmar etc. ', booktabs=TRUE) %>% 
+ column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+```
+
