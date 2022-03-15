@@ -1,5 +1,5 @@
 ---
-title: "Pedagogisk Redogörelse"
+title: "Pedagogisk Reflektion"
 author: "Erik Marsja"
 address: Tvistevägen 26, SE-907 36 Umeå, Sweden
 dob: 19810526
@@ -12,11 +12,10 @@ output:
     latex_engine: pdflatex
     template: template.tex
     keep_tex: no
-geometry: margin=1.2in
+geometry: margin=1in
 subparagraph: yes
 fontawesome: yes
 swedish: TRUE
-
 ---
 
 ```{r setup, include=FALSE}
@@ -25,6 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Under mina år som lärare på högskolenivå har jag skaffat mig erfarenhet av undervisning och gått kurser i högskolepedagogik. Detta har haft en stark inverkan på min utveckling som lärare och jag reflekterar ofta över min roll som lärare samt drivs av att utveckla och förbättra mina pedagogiska färdigheter. Som ett resultat av detta lägger jag ofta mycket tid på att förbereda min undervisning.
 
+\
 Min kunskapssyn utgår från de ämnen jag läst under min tid som grund- och forskarstuderande; kognitionsvetenskap (i synnerhet kognitiv psykologi). Det vill säga, min uppfattning är att kunskap bygger på empiriska resultat (Gustafsson, 2002). Min uppfattning har dock ändrats till att anse att djupare kunskap också kräver förståelse för fakta. Denna utveckling har sprungit från min erfarenhet av undervisning, och de pedagogiska kurser jag läser, men också min specialisering i psykologi som ämne. Jag har kommit att anta ett förhållningssätt baserat på bland annat Gustafssons (2002) fyra F (fakta, förståelse, förtrogenhet, och färdighet). Vidare har jag, under min tid som postdoktor i handikappvetenskap, även kommit att undervisa såväl om som för individer med funktionsnedsättningar. Detta har lett till ytterligare reflektioner kring min pedagogik.
 
 Eftersom merparten av min undervisning har bedrivits i början av studenterna utbildning har mitt mål varit att få eleverna att lära sig förstå fakta (dvs. grundvetenskap). Jag har dock även haft möjlighet att undervisa i kurser med tillämpad inriktning, och projektkurser där eleverna ska kunna tillämpa grundläggande naturvetenskap i direkt kontakt med näringslivet. Här har utmaningen varit att stödja eleverna att tillämpa sina teoretiska kunskaper men också att få dem att teoretiskt förstå de praktiska aspekterna av sitt arbete.
@@ -43,6 +43,7 @@ Att införliva pedagogisk teori är viktigt. Till exempel har jag praktiskt till
 
 I en kurs i handikappvetenskap har jag till exempel tillämpat de 4 F:en. För att uppnå förtrogenhet och färdighet, är jag övertygad att jag som lärare måste arbeta på ett sätt så att fakta kan tillämpas och på så sätt kan studenten förstå vad den har lärt mig. I dessa kurser har jag använt mig av enklare datorlabbar i statistik med mjukvaran Jamovi, där jag först gick igenom teori och sedan fick eleverna själva arbeta med det ett material (svara på statistikfrågor). I den här kursen har jag även arbetat med examinationer där eleverna får tillämpa sina kunskaper och förståelse för statistik genom att arbeta med material och hitta rätt analysmetod för att sedan utföra statistiska analyser. Vid mina 3 år vid Linköpings Universitet har jag även gått en kurs i problembaserat lärande och handlett basgrupper vid olika terminer av psykologprogrammet. Här är det centralt, anser jag, att stimulera studenternas självständighet och lärande genom att ställa relevanta frågor. I problembaserat lärande är det också en utmaning att examinera studenterna eftersom jag måste stimulera deras lärande och aktivitet.
 
+\
 Avslutningsvis vill jag förmedla att min utveckling som universitetslärare naturligtvis innebär att lära sig om, och anamma, fler pedagogiska teorier och försöka koppla dessa till psykologiska teorier om undervisning och lärande. Det som är mest uppenbart är mer individualistiska synsätt som relationspedagogik (Aspelin, 2011) och hur jag har fått användning av dessa. Eftersom en stor del av min undervisning har varit handledning har jag försökt nå eleverna genom att skapa en relation och utifrån denna relation ha interaktion och samarbete. Jag tror att detta är väldigt viktigt eftersom jag ofta undervisar för elever med olika bakgrund samt slutmål. Det innebär att jag i min handledning strävar efter att anpassa mig till grupperna och individerna i grupperna. Här kommer kunskap om relationspedagogik väl till pass liksom mina kunskaper samt erfarenhet av problembaserat lärande.
 
  

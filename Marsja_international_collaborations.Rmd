@@ -1,5 +1,5 @@
 ---
-title: "International Collaborations"
+title: "Internationella samarbeten"
 author: "Erik Marsja"
 date: "`r Sys.Date()`"
 output:
@@ -12,7 +12,7 @@ output:
   word_document: default
 email: erik.marsja@liu.se
 fontawesome: yes
-geometry: margin=1.2in
+geometry: margin=1in
 github: marsja
 lang: Swedish, English
 phone: +4670-36 33 662
@@ -26,9 +26,16 @@ CV: FALSE
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## International Collaborations
+## Internationella Samarbeten
 
-- Dr. John Everett Marsh, School of Psychology, University of Central Lancashire, Preston, UK.
-- Dr. Antje Heinrich, Division of Human Communication, Development & Hearing, University of Manchester, Manchester, UK.
+### Funktionsnedsättning
+- Dr Antje Heinrich, Division of Human Communication, Development & Hearing, University of Manchester, Manchester, UK
+- Dr Simon Sundström, Institutet för Specialpedagogik, Oslo Universitet
+\
+
+### Psykologi
+- Dr John Everett Marsh, School of Psychology, University of Central Lancashire, Preston, UK 
+- Professor Jonathan Delafield-Butt, School of Education, University of Strathclyde, Glasgow, Skottland
+- Dr Christos Tachtatzis, Department of Electronic and Electrical Engineering, University of Strathclyde, Glasgow, Skottland
 
 

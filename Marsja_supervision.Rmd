@@ -1,0 +1,46 @@
+---
+title: "Handledning av uppsatser"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@liu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: templateSE.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+Min handledning har skett på b-uppsatsnivå i funktionsnedsättning och samhälle (dåvarande handikappvetenskap: 2st), på kandidatnivå i kognitionsvetenskap varav 3 av  behandlat funktionsnedsättning och samhälle ur olika perspektiv, och på Masternivå. En av Masteruppsatserna, den jag huvudhandlett, har behandlat funktionsnedsättning och samhälle i människa-data-interaktion (Master i kognitionsvetenskap). De övriga uppsatserna, på kandidat- eller masternivå, har behandlat kognitionsvetenskap och/eller kognitiv psykologi, eller klinisk psykologi. Se nedan för namn, år, titel, och antal högskolepoäng samt länk till DiVa, där möjligt.
+
+
+## Handledning av Kandidatuppsatser
+
+Jerdhaf, O. (2021). "Discovering Implant Terms in Medical Records." Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. Tillgänglig från DiVa: [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1621364](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1621364)
+
+Mattila, M. (2021). Institutionen för Datavenskap, Linköpings Universitet. "Synthetic Image Generation Using GANs: Generating Class Specific Images of Bacterial Growth." Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. Tillgänglig från DiVa: [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1564297](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1564297)
+
+Bridal, O. (2021). Institutionen för Datavenskap, Linköpings Universitet. "Named-entity recognition with BERT for anonymization of medical records." Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1566701](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1566701)
+
+Rombo, A. (2020). Institutionen för Datavenskap, Linköpings Universitet. "Self-determination perceived by
+users in support services pursuant to LSS - An analysis on a municipal level." Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. Tillgänglig från DiVa: [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1443478](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1443478)
+
+Lindberg, F. (2020). Institutionen för Datavenskap, Linköpings Universitet. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag."  Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1468019](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1468019)
+
+Dahlgren, S. (2020). Institutionen för Datavenskap, Linköpings Universitet. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Kandidatuppsats i Kognitionsvetenskap (18 HP). *Huvudhandledare*. [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1443600](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1443600)
+
+## Handledning av Masterstudenter
+
+Carlbring, J. (2020) Institutionen för Datavenskap, Linköpings Universitet. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Masteruppsats i Kognitionsvetenskap (30 HP). *Huvudhandledare*. Tillgänglig från DiVa: [https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1441358](https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1441358)
+
+Ma, L. (2015). Institutionen för Psykologi, Umeå Universitet. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Masteruppsats i Kognitionsvetenskap (15 HP). *Bihandledare*
+
+Blide, M. (2014). Institutionen för Psykologi, Umeå Universitet. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse". Masteruppsats i Psykologi (30 HP). *Bihandledare*. Tillgänglig från DiVa: [https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A794289](https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A794289)

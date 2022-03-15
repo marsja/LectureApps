@@ -1,0 +1,39 @@
+---
+title: "Sammanställning av Publikationer"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@liu.se
+fontawesome: yes
+geometry: margin=1in
+github: marsja
+lang: Swedish, English
+phone: +4670-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Mina publikationer har baserats på experimentell metod och analys av data från databas. 
+I tabellen nedan finnes en sammanställning av publikationer. Jag strävar efter att publicera min forskning open access och reproducerbar när möjligt och detta bör vara tydligt i tabellen. 
+
+|         | Antal           | Open Access  | Avancerad Stat. | RMarkdown | Reproducerbar|
+| ------------- |--------------:| -----:|-----:|-----:|-----:|
+| Refereebedömda orig.-artiklar     | 7 | 3 | 2| 2|2|
+| Översiktsartiklar      | 0      |   NA |NA|NA|NA|
+| Vetenskapl. böcker |     0  |   NA |NA|NA|NA|
+| Vetenskapl. bokkapitel | 0      |NA|NA|NA|NA|
+| Konferensbidrag |  2     |   NA |0|0|0|
+
+ För en beskrivning av mina publikationer se dokumentet "Nuvarande och Planerad Forskning". R-skript för Marsja et al. (2022): https://github.com/marsja/EANDH-D-21-00145, och R-skript och data för Marsja et al. (2018): https://osf.io/amd2h/. "Reproducerbar" i tabellen antyder dessa två publikationer, i dagsläget.

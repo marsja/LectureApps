@@ -1,0 +1,34 @@
+---
+title: "Utvärdering - Undervisning"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@liu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: templateSE.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Utvärdering  
+
+Bifogat finnes två stycken filer med utvärderingar i kurser jag har undervisat i. Den första har jag varit inne i en stor del av momenten när det vetenskapsteori och metod (Handikappvetenskap I, grundkurs) och den andra är i kognitionspsykologi och där har jag handlett basgrupper i problembaserat lärande (Kognitionspsykologi 3 - Tillämpning för inlärningssvårigheter).
+
+Vid uppladdning har filerna namnen:
+
+* Marsja_evaluations_handikappvetenskap.pdf (Handikappvetenskap I, grundkurs)
+* Marsja_evaluations_kogpsy_PBL.pdf (Kognitionspsykologi 3 - Tillämpning för inlärningssvårigheter).
+

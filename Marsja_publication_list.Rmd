@@ -12,7 +12,7 @@ output:
   word_document: default
 email: erik.marsja@liu.se
 fontawesome: yes
-geometry: margin=1.2in
+geometry: margin=1in
 github: marsja
 lang: Swedish, English
 phone: +4670-36 33 662
@@ -25,28 +25,69 @@ CV: FALSE
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## Publications
+## Publikationer
 
-### International peer-reviewed articles
+### Refereebedömda original-artiklar
 
-Total: 6
+Totalt: 7
 
-**Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification. *Ear & Hearing*. https://doi.org/10.1097/AUD.0000000000001196
+  1. Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (Accepted). Relationships between objective and subjective outcome measures of speech recognition in noise. *International Journal of Audiology*. (*Open Access*)
 
-Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B. (2021). The Contribution of Age, Working Memory Capacity, and Inhibitory Control on Speech Recognition in Noise in Young and Older Adult Listeners. *Journal of Speech, Language, and Hearing Research, 64*(11), 4513–4523. https://doi.org/10.1044/2021_JSLHR-20-00251
+  2. **Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification. *Ear and Hearing*. https://doi.org/10.1097/AUD.0000000000001196 (*Open Access*). R-skript tillgänglig: [https://github.com/marsja/EANDH-D-21-00145](https://github.com/marsja/EANDH-D-21-00145)
 
-Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
+  3. Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B. (2021). The Contribution of Age, Working Memory Capacity, and Inhibitory Control on Speech Recognition in Noise in Young and Older Adult Listeners. *Journal of Speech, Language, and Hearing Research, 64*(11), 4513–4523. https://doi.org/10.1044/2021_JSLHR-20-00251
 
-**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. https://doi.org/10.3389/fpsyg.2019.00299 - *Part of doctoral thesis*
+  4. Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
 
-**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390 - *Part of doctoral thesis*
+  5. **Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. https://doi.org/10.3389/fpsyg.2019.00299 - **Del av avhandling** (*Open Access*).
 
-Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. http://dx.doi.org/10.1016/j.actpsy.2014.05.009
+  6. **Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390 - **Del av avhandling**.  R-skript och data tillgänglig: [https://osf.io/amd2h/](https://osf.io/amd2h/).
 
-## Popular Science and Education-Related Articles
+  7. Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. http://dx.doi.org/10.1016/j.actpsy.2014.05.009
 
-Total: 1
+## Konferensbidrag
 
-**Marsja**, E. (2016, July). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+Totalt: 12
+
+Se "Deltagande i nationella och internationella konferenser" för mer information.
+
+### Refereegranskade
+
+Totalt: 2
+
+  1. **Marsja**, E., Neely G., Ma, L., & Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Proceedings for the 31st Annual Meeting of the International Society for Psychophysics, Québec, CA. Retrieved from https://proceedings.fechnerday.com/index.php/proceedings/article/view/584
+  
+  2. **Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm. Proceedings of the 29th Annual meeting of the International Society of Psychophysics, Freiburg, DE. Retrieved from https://proceedings.fechnerday.com/index.php/proceedings/article/view/579
+  
+### Ej refereegranskade
+
+Totalt: 10
+
+  1. **Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., Rönnberg, J. (2019, November). Examining how Cognitive Functioning, Aging, and Hearing Loss, Affect Speech-in-Noise Performance. Aging and Speech Communication Conference, Tampa, Florida, USA.
+
+  2. Stenbäck, V., **Marsja**, E., Danielsson, H., Rönnberg, J. (2019, November). Logical and Auditory Inference Making: Performance in the HINT in normally-hearing and hearing-impaired listeners. Aging and Speech Communication Conference, Tampa, Florida, USA. 
+
+  3. Bampouni, E., **Marsja**, E., Sörman, D.E., & Ljungberg, K.J (2019, November). Do Action Gamers Have Enhanced Visual Search Skills? a Realistic Task Approach. The 15th SweCog conference of the Swedish Cognitive Science Society, Umeå, Sweden. 
+
+  4. **Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., & Rönnberg, J. (2019, June). Examining Relationship Amongst Cognition, Hearing Loss, Age, & Speech in Noise. Cognitive Hearing Science for Communication, Linköping, Sweden. Poster.
+
+  5. Stenbäck, V., Moradi, S., **Marsja**, E., Danielsson, H., & Rönnberg, J. (2019, June). Logical and auditory inference-making in normally-hearing and hearing-impaired listeners. Cognitive Hearing Science for Communication, Linköping, Sweden. 
+
+  6. **Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. 
+
+  7. **Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. Invited presentation.
+
+  8. **Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2016, June). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17th annual meeting, Suzhou, CHN. Oral presentation.
+
+  9. **Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55th Annual Meeting. Long Beach, CA, USA.
+
+  10. Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, & G. Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK.
+
+
+## Populärvetenskapliga Artiklar
+
+Totalt: 1
+
+  1. **Marsja**, E. (2016, July). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
 \sloppy
 http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/

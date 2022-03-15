@@ -1,0 +1,37 @@
+---
+title: "Granskningsuppdrag"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@liu.se
+fontawesome: yes
+geometry: margin=1in
+github: marsja
+lang: Swedish, English
+phone: +4670-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Funktionsnedsättning
+
+### 2021 
+- Granskare av rapporten "Upplevelser av kollektivtrafik hos personer med neuropsykiatriska funktionsnedsättningar" av Dr Jessica Berg och Jonas Ihlström, Statens väg- och Transportforskningsinstitut (VTI), Linköping.
+
+## Kognitionspsykologi
+
+### 2016
+- Intern granskare vid slutseminarium för avhandlingen "Exploring models of time processing: effects of training and modality, and the relationship with cognition in rhythmic motor tasks" av Olympia Karempela, Institutionen för Psykologi, Umeå Universitet, Umeå.

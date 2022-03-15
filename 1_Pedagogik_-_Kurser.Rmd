@@ -1,0 +1,31 @@
+---
+title: "Pedagogiska Kurser"
+author: "Erik Marsja"
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+dob: 19810526
+email: erik.marsja@liu.se
+web: www.marsja.se
+phone: +4670-3633662
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: templateSE.tex
+    keep_tex: no
+geometry: margin=1.2in
+subparagraph: yes
+fontawesome: yes
+swedish: TRUE
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Bifogat finnes intyg från 4 kurser i pedagogik på Universitetet (totalt 8 HP). Det gäller kurserna:
+
+* Introduktionskurs i högskolepedagogik, Universitetspedagogik och lärandestöd, Umeå Universitet ("Marsja_intr.pdf")
+* Undervisning på högskolan, Universitetspedagogik och lärandestöd, Umeå Universitet ("Marsja_UpH.pdf")
+* Teorier om Lärande, Universitetspedagogik och lärandestöd, Umeå Universitet ("Marsja_ToL.pdf")
+* Problembaserat lärande, Didaktikum, Linköpings Universitet ("Marsja_PBL.pdf")
