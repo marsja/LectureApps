@@ -1,0 +1,350 @@
+\documentclass[]{article}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{everypage}
+
+\newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
+  \dimendef\margin=0 %use \margin instead of \dimen0
+  \ifodd\value{page}\margin=\oddsidemargin
+  \else\margin=\evensidemargin
+  \fi
+  \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
+    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+    \llap{\rotatebox{90}{ CV  - Erik Marsja 
+- \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
+\egroup\fi}
+\AddEverypageHook{\Lpagenumber}%
+
+\usepackage{adjustbox}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+\usepackage[scaled=.80]{helvet}% Helvetica, served as a model for arial
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\fancyfoot[CO,CE]{   Erik Marsja -  \thepage\hspace{1pt}(\pageref{LastPage})}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\usepackage[margin=1in]{geometry}
+
+% Font awesome
+\usepackage{fontawesome}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% For tables
+
+
+% Tightlist
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% URLS
+\usepackage[hidelinks]{hyperref}
+\usepackage{breakurl}
+\usepackage{float} % here for H placement parameter
+
+% Appendix header style
+
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+}
+
+
+% For Changing the margins (Education)
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+%For displaying the table in landscape format
+\usepackage[absolute]{textpos}
+
+\fancypagestyle{lscape}{% 
+\fancyhf{} % clear all header and footer fields 
+\fancyfoot[LE]{%
+\begin{textblock}{20}(1,5){\rotatebox{90}{\leftmark}}\end{textblock}
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}}
+\fancyfoot[LO] {%
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}
+\begin{textblock}{20}(1,13.25){\rotatebox{90}{\rightmark}}\end{textblock}}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+% Appendix
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+\renewcommand{\headrulewidth}{1pt}
+}
+
+
+
+\newcommand\secbar {
+    \tikz[baseline, trim left=3.2cm] 
+    {
+        \fill [white] (3cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \draw [gray!95, fill=gray!80] (0cm,0.1ex) rectangle (3cm,1.1ex);        
+    }
+}
+\newcommand\subsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (2cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\newcommand\subsubsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (1cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\titleformat{\section}{\large}{}{0cm}{\secbar}
+\titleformat{\subsection}{\large}{}{0cm}{\normalfont\sffamily\Large\bfseries\subsecbar}
+\titleformat{\subsubsection}{}{}{0cm}{\normalfont\sffamily\large\bfseries}
+
+% No first line paragraph indent
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\setlength{\parskip}{0cm}
+
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{1pt plus 1pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{1pt plus 1pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+\centerline{\huge \textbf{Erik
+Marsja} | \textcolor{darkgray}{Avsiktsförklaring bitr. lektorat}}
+
+\vspace{1mm}
+
+\hrule
+
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{@{}lYl@{}}
+\textbf{Home Address}: & &  \textbf{Personal Identity Number:} 
+\\Tvistevägen 26, SE-907 36 Umeå, Sweden & &  19810526 
+\\\\
+
+ \faPhone \hspace{1 mm}  46703633662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:erik.marsja@liu.se}{\nolinkurl{erik.marsja@liu.se}}} \hspace{1 mm}  \\
+ \faGlobe \hspace{1 mm} \href{http://www.marsja.se}{\tt www.marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  \\
+ \multicolumn{3}{c}{}
+ \\\hline
+\end{tabularx}
+\end{table}
+
+Till sakkunniga, anställningskommitté, och övriga berörda
+representanter,
+
+\hfill\break
+Med denna avsiktsförklaring vill jag deklarera mina avsikter för
+tjänsten som biträdande lektor vid Avdelningen för Funktionsnedsättning
+och Samhälle, Institutionen för Beteendevetenskap och Lärande,
+Linköpings Universitet.
+
+\hypertarget{forskning}{%
+\subsection{Forskning}\label{forskning}}
+
+I min forskning har jag fram till idag främst använt mig av olika
+kvantitativa ansatser såsom till exempel experiment och analys av data
+från databaser. De flesta projekt jag har varit involverad i faller inom
+ramen för kognitiv hörselvetenskap men jag har även studerat andra
+sensoriska modaliteter. Under min tjänst som postdoktor vid avdelningen
+för funktionsnedsätting och samhälle har min forskning främst handlat om
+analys av data från N200-databasen (n = ca. 500) med fokus på kognitiva
+mekanismer för taluppfattning i bakgrundsbrus. Vidare har jag analyserat
+data från experiment med samma fokus. Forskningen har inneburit allt
+ifrån enkel statistisk analys till avancerad statistisk analys (exv.
+linear mixed-effects modeling och strukturell ekvationsmodellering).
+Dessa studier har undersökt eventuella skillnader och likheter mellan
+olika grupper (exv. äldre och unga, personer med eller utan
+hörselnedsättning). Med syftet att undersöka hur kognitiva mekanismer
+kan vara olika relaterade till taluppfattning i brus för olika
+åldersgrupper, eller är beroende av hörselstatus.
+
+\hfill\break
+Den forskning jag avser att bedriva vid Avdelningen för
+Funktionsnedsättning och Samhälle bygger i det stora hela på ovan nämnda
+tidigare forskning och den typ av forskning jag bedrev under min tid som
+forskarstuderande. Min framtida forskning kan grovt delas in i tre
+huvudområden kognitiv hörselvetenskap, psykologi, och transport. Den
+gemensamma nämnaren för den forskning jag avser att bedriva är inom
+området funktionsnedsättning och samhälle utifrån bland annat den
+bio-psykosociala modellen. Trots att forskningen jag bedrivit, och
+planerar att bedriva, främst har en kvantitativ prägel så anser jag att
+forskningsfrågan avgör den metodologiska ansatsen. Det vill säga, jag
+ämnar bedriva min forskning med både kvantitativ och kvalitativ metod,
+såväl som blandningen av dessa ansatser(mixed-methods) beroende på
+vilken som är mest lämplig. Utifrån bredden inom forskningsfältet anser
+jag att varje metod har sin givna plats.
+
+\hfill\break
+Eftersom N200-projektet är en longitudinell studie avser jag att följa
+upp en del av den forskning jag redan publicerat. Ett exempel är att jag
+ämnar studera hur åldrande påverkar hörsel och kognition. Detta skulle,
+till exempel, kunna innefatta användandet av avancerade statistiska
+metoder som latent growth curve eller latent change score modeling.
+Vidare avser jag även att utveckla mina egna forskningsområden inom
+kognitiv hörselvetenskap. Till exempel, vill jag undersöka hur mycket av
+de kognitiva mekanismerna bakomliggande taluppfattning som har med
+språkliga färdigheter att göra.
+
+\hfill\break
+Jag avser att utöka den forskning som rört vid psykosociala aspekter av
+hörselnedsättning (subjektiva mått av vardagliga hörselproblem). Till
+exempel avser jag att undersöka sambandet mellan psykosocial hälsa och
+läs- och skrivförmåga hos elever med hörselnedsättning i mellan- och
+lågstadiet. Ett annat exempel på forskning jag avser att bedriva med en
+psykosocial prägel är den med inriktning på hörselnedsättning och
+digitaliseringen av samhället i synnerhet arbetslivet. Preliminära
+resultat från min egen forskning antyder att digitaliseringen (exv.
+videomöten i större utsträckning) av arbetslivet kan ha positiva
+effekter, både fysiskt och psykiskt. Eftersom dessa resultat är från en
+intervjustudie avser jag att följa upp dem med en kvantitativ ansats
+tillsammans med kollegor inom olika områden, bland annat
+funktionsnedsättning och samhälle. Min förhoppning är att utveckla
+forskningen så att den innefattar fler kognitiva och psykosociala
+aspekter (exv. stress och konsekvenser som ohälsa och sjukskrivning).
+Jag vill även undersöka hur hjälpmedel kan underlätta i videomöten, till
+exempel undertexter. Andra funktionsnedsättningar kan även vara av
+intresse inom detta forskningsområde.
+
+\hfill\break
+Under min tid som forskare vid Statens Nationella Väg- och
+Transportforskningsinstitut (VTI) har jag utökat mitt kontaktnät med
+forskare med fokus på funktionsnedsättningar i transportsektorn.
+Tillsammans med dessa avser jag att undersöka vilka barriärer det finns
+för äldre med åldersrelaterade funktionsnedsättningar (exv. syn- och
+hörselnedsättningar) i kollektivtrafiken. Denna typ av forskning, dvs.
+transportforskning med fokus på personer med funktionsnedsättning, avser
+jag att fortsätta med inom ramen för Linköpings styrkeområde Transport.
+Här avser jag främst att min forskning ska bidra direkt till samhället
+genom att stimulera till mobilitet, delaktighet, och rättvisa för att
+till exempel främja psykisk hälsa hos individer med
+funktionsnedsättning.
+
+\hfill\break
+Jag avser vidare att samarbeta med forskare både nationellt och
+internationellt inom området funktionsnedsättning och samhälle men även
+med forskare inom områdena psykologi och pedagogik. Ett exempel är det
+påbörjade samarbetet med forskare vid Avdelningen för Psykologi vid
+Linköpings Universitet. Detta projekt är ett exempel på mina
+internationella samarbeten. Det finns även påbörjade samarbeten
+nationellt inom ramen för funktionsnedsättning och samhälle där vi avser
+att studera ADHD baserat på studier från min avhandling.
+
+\hfill\break
+Summa summarum, jag avser att vara under ständig utveckling inom området
+för funktionsnedsättning och samhälle. Detta innebär att; även om jag
+avser att fokusera min forskning på hörselnedsättning, kognitiva
+mekanismer, och funktionsnedsättningens samhälleliga konsekvenser, så
+strävar jag att även undersöka andra funktionsnedsättningar. Jag avser
+att utöka min kunskap både i kvantitativ och kvalitativ metod. Jag
+avser, för att nämna ett exempel, att lära mig avancerade statistiska
+metoder inom fältet för artificiell intelligens (exv. deep learning,
+neurala nätverk) för att kunna tillämpa detta på olika typer av data
+(exv. beteende data från video).
+
+\hypertarget{undervisning}{%
+\subsection{Undervisning}\label{undervisning}}
+
+När det kommer till undervisning har jag för avsikt att bedriva och
+vidareutveckla avdelningens kurser inom ämnesområdet
+funktionsnedsättning och samhälle. Vidare avser jag att vara en aktiv
+del av lärarkollegiet. Jag avser att bidra till arbetet med
+kvalitetsgranskning och omarbetning av kurser i samarbete med
+studierektor och övriga lärare. Utöver avdelningens egna kurser avser
+jag att kunna bidra med undervisning kopplat till min forskningsexpertis
+vid efterfrågan. Detta gäller både andra utbildningar vid institutionen
+(exv. Psykologprogrammet) men även vid andra institutioner och
+fakulteter vid Linköpings Universitet (exv. kognitionsvetenskapliga
+programmen vid Institutionen för Datavetenskap).
+
+\hfill\break
+Som jag tidigare antytt, är det viktigt för mig att utvecklas och det
+gäller givetvis även min undervisning. För att utvecklas som lärare,
+utöka mina kunskaper i högskolepedagogik och kunna bedriva undervisning
+på forskarutbildningsnivå har jag för avsikt att läsa fler kurser i
+universitetspedagogik. Till exempel kommer jag att läsa Linköpings
+Universitets påbyggnadskurs i högskolepedagogik och kurser gällande
+handledning på forskarutbildningsnivå. Att utvecklas pedagogiskt innebär
+givetvis även att jag avser att delta i Lärarluncher, lärardagar, och
+andra forum för att utvecklas genom att exempelvis dela andras
+erfarenheter och att få råd. Slutligen, eftersom jag tidigare inte haft
+möjlighet att leda en kurs som kursansvarig så avser jag här att få
+driva och utveckla en kurs eller ett delmoment inom funktionsnedsättning
+och samhälle.
+
+\hypertarget{samverkan}{%
+\subsection{Samverkan}\label{samverkan}}
+
+Jag avser även att utöka min samverkan med samhället genom att till
+exempel fortsätta skriva om forskning, och metod, på min personliga
+blogg, att inom ramen som expert i de Hörselskadades riksförbund bidra
+med information och kunskap från forskningen vid Avdelningen för
+Funktionsnedsättning och Samhälle. Vidare, ämnar jag att kommunicera ut
+forskning från avdelningen, framförallt min egen och den forskargrupp
+jag tillhör, till berörda aktörer i samhället (exv. hörselkliniker,
+hjälpmedelcentrum).
+
+\hypertarget{arbetsmiljuxf6}{%
+\subsection{Arbetsmiljö}\label{arbetsmiljuxf6}}
+
+Vidare är min avsikt att delta aktivt i möten och aktiviteter på alla
+nivåer på Linköpings Universitet. Det vill säga, möten och aktiviteter
+anordnade på avdelnings-, institutions- samt fakultetsnivå. Jag kommer
+att bidra till avdelningens utveckling och arbete i form av aktivt
+deltagande vid avdelningsmöten, lärarmöten och avdelningens
+seminarieserier samt ta ett ledaransvar när detta behövs. Mitt
+deltagande innebär att jag kommer verka för ett trevligt, respektfullt
+och inkluderande klimat på avdelningen samt inom de arbetsgrupper där
+jag är verksam.
+
+\hfill\break
+Utifrån mina publikationer jag hittills gjort under min tid på
+Avdelningen för Funktionsnedsättning och Samhälle har jag ett mål
+gällande min meritering. Mer konkret avser jag att meritera mig så att
+jag kan ansöka om docentur inom två år. Ett annat mål är att jag även
+avser att handleda studenter från kandidat- till doktorandnivå.
+
+\hfill\break
+Avslutningsvis, avser jag att bedriva min forskning inom ramen för Open
+Science genom att pre-registrera datainsamlingar när det är lämpligt
+(exv. experiment, eller planerade analyser av registerdata),
+tillgängliggöra data (när möjligt), RMarkdown-filer och analysskript för
+att öka reproducerbarheten av mina forskningsresultat. Min kunskap och
+min strävan för att verka för öppen vetenskap avser jag sprida till
+kollegor vid avdelningen och eventuella studenter, framför allt men inte
+uteslutande, på forskarnivå.
+
+\hfill\break
+\footnotesize Detta dokument är skapat med RMarkdown och alla filer för
+att skapa dokumentet, såväl som alla mina andra ansökningshandlingarm
+finns tilllängliga på GitHub:
+\url{https://github.com/marsja/LectureApps}
+
+\end{document}
