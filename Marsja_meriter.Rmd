@@ -1,0 +1,56 @@
+---
+title: "Erik Marsja"
+author: "Marsja"
+date: '2022-05-17'
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Metodkunskaper
+
+- Kvantitativ metod
+  - Experiment
+  - Statistisk Metod
+- Open Science/Reproducerbarhet
+  - Python
+  - R 
+  - RMarkdown
+- Kvalitativ metod
+  - Semistrukturerade intervjuer
+
+## Forskningsprofil
+
+### Experimentell Psykologi
+- Ljungberg et al. (2014)
+- Marsja et al. (2018)
+- Marsja et al. (2019)
+- Rosa et al. (2020)
+
+### Kognitiv Hörselvetenskap
+
+- Stenbäck et al. (2021)
+- Marsja et al. (2022)
+- Stenbäck et al. (2022)
+- Stenbäck et al. (Under Revision)
+
+## Kognitiv Hörselvetenskap
+
+## Taluppfattning
+
+
+## Undervisning
+
+- Metod
+  - Kvantitativ Metod och Statistisk Analys
+  - Kvalitativ Metod
+- Kognitionsvetenskap
+  - Tillämpad kognitionsvetenskap
+  - Uppsatshandledning
+- Psykologi
+  - Kognitionspsykologi 
+- Problembaserat lärande
+  - Psykologprogrammet
+
